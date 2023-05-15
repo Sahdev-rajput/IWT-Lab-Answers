@@ -9,7 +9,7 @@ The Various questions are as follows:
 Given a paragraph "This is a paragraph.Lab examination of CSE 3rd sem is taking place.You have to change randomly the color of this line using a button click event. The paragraph continues . In this course, we have studied about HTML, CSS and Javascript.". Design a button which can dynamically change the colour of the line "You have to change randomly the color of this line using a button click event" each time to a different colour using Javascript.
 
 # Question 2
-Write a program which will display a link through which one can navigate to different section of different webpage.
+Write a program which will display a link through which one can navigate to a different section of different webpage.
 
 
 # Question 3
