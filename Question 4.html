@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Question 4</title>
+    <style>
+        #box
+        {
+            height:150px;
+            width:150px;
+            background-color: yellowgreen;
+        }
+    </style>
+</head>
+<body>
+    <center>
+    <div id="box"></div><br>
+    <input type="range" id="range" max="50" min="0" value="0" onchange="changed()">
+</center>
+<script>
+function changed()
+{
+    var a=document.getElementById("range").value;
+    var b=a+'%';
+    var c=document.getElementById("box");
+    c.style.borderRadius=b;
+}
+</script>
+</body>
+</html>

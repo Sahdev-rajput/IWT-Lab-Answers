@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>
+        Changing the font Color of particular line
+    </title>
+</head>
+<body>
+    <p>This is a paragraph.Lab examination of CSE 3rd sem is taking place.<span id="demo">You have to change randomly the color of this line using a button click event.</span> The paragraph continues . In this course, we have studied about HTML, CSS and Javascript.</p>
+    <input type="button" value="Change Color" onclick="clicked()">
+    <script>
+        function random(number)
+        {
+            return Math.floor(Math.random()*(number+1));
+        }
+        function clicked()
+        {
+            var a=document.getElementById("demo");
+            var rndcol=(`rgb(${random(255)},${random(255)},${random(255)})`);
+            a.style.color=rndcol;
+        }
+    </script> 
+</body>
+</html>

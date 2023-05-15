@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dynamic Counter</title>
+</head>
+<body>
+    <h3 style="color:red">Dynamic Counter</h1>
+    <button onclick="decrement()">-15</button>
+    <span id="display">0</span>
+    <button onclick="increment()">+15</button>
+    <script>
+        function decrement()
+        {
+            var a=document.getElementById("display").innerText;
+            var b=(+a)-15;
+            document.getElementById("display").innerText=b;
+        }
+        function increment()
+        {
+            var a=document.getElementById("display").innerText;
+            var b=(+a)+15;
+            document.getElementById("display").innerText=b;
+        }
+    </script>
+</body>
+</html>
