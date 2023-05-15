@@ -1,5 +1,5 @@
 # Internet and Web Technologies answers
-This repository contains the answers of some javascript questions that were asked to be presented during my lab exam held at college in second year.
+This repository contains the answers of some javascript questions that were asked to be presented during my lab exam held at college in 3rd Semester.
 
 The Various questions are as follows:
 
